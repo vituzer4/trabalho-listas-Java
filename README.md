@@ -1,13 +1,12 @@
-# Avaliação Prática II - Implementação de Listas Estática e Encadeada em Java
+# Avaliação Prática II - Implementação de Lista Encadeada em Java
 
 ## Descrição da Atividade
 
-Esta avaliação prática tem como objetivo aplicar os conceitos de Programação Orientada a Objetos (POO) e Estruturas de Dados por meio da implementação de duas estruturas de listas em Java: Lista Estática e Lista Encadeada. O desafio consiste em implementar essas listas de forma eficiente, utilizando as características próprias de cada tipo de estrutura para resolver problemas práticos de programação.
+Esta avaliação prática tem como objetivo aplicar os conceitos de Programação Orientada a Objetos (POO) e Estruturas de Dados por meio da implementação de uma estrutura de lista em Java: **Lista Encadeada**. O desafio consiste em implementar essa estrutura de forma eficiente, utilizando as características próprias da lista encadeada para resolver problemas práticos de programação.
 
 ### Objetivos
-- Implementar uma **Lista Estática** utilizando arrays.
 - Implementar uma **Lista Encadeada** utilizando objetos.
-- Desenvolver operações básicas de manipulação para as listas: inserção, remoção, busca e exibição de elementos.
+- Desenvolver operações básicas de manipulação para a lista: inserção, remoção, busca e exibição de elementos.
 - Aplicar conceitos de Estruturas de Dados de maneira prática e orientada a objetos.
 
 ### Requisitos do Trabalho
@@ -18,17 +17,9 @@ Esta avaliação prática tem como objetivo aplicar os conceitos de Programaçã
 
 ---
 
-## Estruturas de Dados a Serem Implementadas
+## Estrutura de Dados a Ser Implementada
 
-### 1. Lista Estática
-A **Lista Estática** será implementada utilizando um array em Java. As operações básicas a serem desenvolvidas são:
-
-- **Inserção**: Adicionar elementos à lista.
-- **Remoção**: Remover elementos da lista.
-- **Busca**: Buscar elementos dentro da lista.
-- **Exibição**: Exibir os elementos presentes na lista.
-
-### 2. Lista Encadeada
+### 1. Lista Encadeada
 A **Lista Encadeada** será implementada utilizando objetos. Para isso, será criada uma classe `Node` que representará cada elemento da lista. As operações a serem implementadas são:
 
 - **Inserção**: Adicionar elementos à lista.
@@ -43,7 +34,7 @@ A **Lista Encadeada** será implementada utilizando objetos. Para isso, será cr
 O relatório final deve ser elaborado em **LaTeX**, utilizando o modelo fornecido pelo docente. Caso necessário, a plataforma **Overleaf** pode ser utilizada para facilitar a escrita.
 
 ### Conteúdo do Relatório
-1. **Descrição da Atividade**: Explicação sobre o que foi realizado no trabalho, justificando a escolha das estruturas de dados e a aplicação dos conceitos abordados na disciplina.
+1. **Descrição da Atividade**: Explicação sobre o que foi realizado no trabalho, justificando a escolha da estrutura de dados e a aplicação dos conceitos abordados na disciplina.
 2. **Código**: O código-fonte da implementação deve ser incluído no apêndice do relatório, com explicações breves sobre as principais funcionalidades.
 3. **Link do GitHub**: Incluir o link para o repositório no GitHub, onde o código estará versionado e disponível para consulta.
 
@@ -53,14 +44,11 @@ O relatório final deve ser elaborado em **LaTeX**, utilizando o modelo fornecid
 
 ### Ambiente de Desenvolvimento
 - **Linguagem**: Java
-- **IDE Recomendada**: Eclipse (ou outras IDEs como IntelliJ IDEA, Virtual Studio Code ou NetBeans).
+- **IDE Recomendada**: Eclipse (ou outras IDEs como IntelliJ IDEA, Visual Studio Code ou NetBeans).
 - **GitHub**: O código deve ser armazenado e versionado no GitHub. Crie um repositório público ou privado conforme as instruções do docente. Inclua o link do repositório no relatório final.
 
-### Estruturas de Dados
-#### Lista Estática
-A implementação da Lista Estática deve usar um array. As operações devem ser otimizadas para utilizar o espaço do array da melhor forma possível, evitando desperdício de memória.
-
+### Estrutura de Dados
 #### Lista Encadeada
-A implementação da Lista Encadeada deve usar objetos da classe `Node`. Cada `Node` deve conter um valor e uma referência ao próximo `Node` da lista. A estrutura deverá ser eficiente, garantindo inserções e remoções rápidas.
+A implementação da **Lista Encadeada** deve usar objetos da classe `Node`. Cada `Node` deve conter um valor e uma referência ao próximo `Node` da lista. A estrutura deverá ser eficiente, garantindo inserções e remoções rápidas.
 
 ---
