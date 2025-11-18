@@ -17,7 +17,7 @@ Esta avaliação prática tem como objetivo aplicar os conceitos de Programaçã
 
 ---
 
-## Estrutura de Dados a Ser Implementada
+## Estrutura de Dados a ser implementada
 
 ### 1. Lista Encadeada
 A **Lista Encadeada** será implementada utilizando objetos. Para isso, será criada uma classe `Node` que representará cada elemento da lista. As operações a serem implementadas são:
