@@ -20,7 +20,7 @@ Esta avaliação prática tem como objetivo aplicar os conceitos de Programaçã
 ## Estrutura de Dados a ser implementada
 
 ### 1. Lista Encadeada
-A **Lista Encadeada** será implementada utilizando objetos. Para isso, será criada uma classe `Node` que representará cada elemento da lista. As operações a serem implementadas são:
+A **Lista Encadeada** será implementada utilizando objetos. Para isso, será criada uma classe `No` que representará cada elemento da lista. As operações a serem implementadas são:
 
 - **Inserção**: Adicionar elementos à lista.
 - **Remoção**: Remover elementos da lista.
@@ -49,6 +49,6 @@ O relatório final deve ser elaborado em **LaTeX**, utilizando o modelo fornecid
 
 ### Estrutura de Dados
 #### Lista Encadeada
-A implementação da **Lista Encadeada** deve usar objetos da classe `Node`. Cada `Node` deve conter um valor e uma referência ao próximo `Node` da lista. A estrutura deverá ser eficiente, garantindo inserções e remoções rápidas.
+A implementação da **Lista Encadeada** deve usar objetos da classe `No`. Cada `No` deve conter um valor e uma referência ao próximo `No` da lista. A estrutura deverá ser eficiente, garantindo inserções e remoções rápidas.
 
 ---
